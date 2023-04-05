@@ -40,7 +40,6 @@ emp *emp1=NULL,**new_emp;
 
 int get_psn(psn *new_psn) // asks user to fill person details 
 {
-	int d,m,y;
     printf("\nPlease enter Employee details\n");
     printf("\nFirst name : ");
     scanf("%s",new_psn->fname);
@@ -89,13 +88,13 @@ int check_dov(char *d,char *m,char *y)
 		{
 			if(d[1]<='1');
 			else
-			return -1;
+			goto date;
 		}
 		if(d[0]=='0')
 		{
 		if(d[1]>'0');
 		else
-		return -1;
+		goto date;
 		}
 	if((m[0]>='0'&&m[0]<='1')&&(m[1]>='0'&&m[1]<='9'))
 	{
@@ -103,13 +102,13 @@ int check_dov(char *d,char *m,char *y)
 		{
 			if(m[1]<='2');
 			else
-			return -1;
+			goto date;
 		}
 		if(m[0]=='0')
 		{
 			if(m[1]>'0');
 			else
-			return -1;
+			goto date;
 		}
 	}
 	if(y[0]>='1'&&y[0]<='2')
@@ -121,21 +120,21 @@ int check_dov(char *d,char *m,char *y)
 			break;
 		}
 		if(i!=4)
-		return -1;
+		goto date;
 		else
 		return 0;
 	}
          return 0;
 	}
-         else
-         {
-         	printf("Wrong date entered\n");
-         	printf("Re-enter date\n");
+         
+   date:
+        printf("Wrong date entered\n");
+        printf("Re-enter date\n");
     	scanf("%s",d);
    	scanf("%s",(char *)m);
    	scanf("%s",(char *)y);
    	check_dov(d,(char*)m,(char*)y);
-         } 
+          
            
 }
 
