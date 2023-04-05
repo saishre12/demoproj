@@ -1,24 +1,3 @@
-<h1>Structure program for Employee details</h1>
-<h2>Index</h2>
-<h3>Introduction</h3>
-<h3>Flow of the program</h3>
-<h3>Algorithm</h3>
-
-<h4>Introduction</h4>
-<h5><p>In this document I have wrote a code to understand how a structure is defined in another structure and how we can access the data via pointers as well get the employee details and print it out on the screen</p
-></h5>
-
-<h3>Flow of the program</h3>
-
-<h3>Algorithm</h3>
-<ol>
-<li>Creation of structures</li>
-<ol>
-<li>Person details structure</li>
-<li>Person salary details structure</li>
-<li>Employee structure</li>
-</ol>
-<li>Declaring g<h2>Structure program for Employee details</h2>
 <h3>Index</h3>
 <ol>
   <li><a href="#Introduction">Introduction</a></li>
