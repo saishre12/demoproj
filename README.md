@@ -84,19 +84,3 @@
 
 
 
-et_psn() function</li>
-<li>Declaring get_sal() function</li>
-<li>Declaring create() function</li>
-<li>Declaring print() function</li>
-<li>Declaring checkpsn_name() function</li>
-<li>Declaring check_dov() function</li>
-<li>Declaring check_sal() function</li>
-
-<h4>Main Program</h4>
-<h4>Create function call</h4>
-<b><i>get_psn()</i></b> function call<br></br>
-<b><i>get_sal()</i></b> function call<br></br>
-<b><i>checkpsn_name()</i></b> function call
-
-
-</ol>
