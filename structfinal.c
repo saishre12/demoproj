@@ -151,7 +151,7 @@ int get_sal(sal *new_sal, psn *new_psn ) // asks user to fill person details
    }
     printf("\nIncrement Salary %% : ");
     scanf("%d",&(new_sal->increment));
-    if((new_sal->increment)<=0||(new_sal->increment>100))
+    while((new_sal->increment)<=0||(new_sal->increment>100))
     {
     	printf("Re-enter increment salary");
     	 scanf("%d",&(new_sal->increment));
