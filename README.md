@@ -20,7 +20,12 @@
 >
 <br>
 <h3 id="Flow of the program">Flow of the program</h3>
-<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0001.jpg" alt="Structures image">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0001.jpg">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0002.jpg">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0003.jpg">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0004.jpg">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0005.jpg">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0006.jpg">
 <br>
 <h3 id="Algorithm">Algorithms</h3>
 <h3 id="main()">Main function</h3>
