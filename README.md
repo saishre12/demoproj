@@ -20,7 +20,7 @@
 >
 <br>
 <h3 id="Flow of the program">Flow of the program</h3>
-<img src="/home/zentreelabs-pc35/Downloads/ilovepdf_pages-to-jpg" alt="Structures image">
+<img src="https://github.com/saishre12/demoproj/blob/master/structures%20flowchart_page-0001.jpg" alt="Structures image">
 <br>
 <h3 id="Algorithm">Algorithms</h3>
 <h3 id="main()">Main function</h3>
